@@ -259,7 +259,7 @@ bool ShouldSkipShader(u64 shader_hash, const char* shader_type) {
     static std::vector<u64> skip_hashes = {
 
         //Required to get Lies of P to menus
-        0x7eaca10c670a8c03,
+        
 
         //Sekiro gs shader before "Ring Access Elimination 131" assert, and cs shader which drops FPS
         0x7ee03d3f,
